@@ -1,0 +1,49 @@
+/*Navbarens styling. Jag ville att den skulle se ut på ett visst
+sätt på små skärmar, därför var det enklast att använda en extern
+css-fil.*/
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.navbar-container1{
+    width: 75%;
+    display: flex;
+}
+
+.nav-title{
+    height: fit-content;
+}
+
+.navbar-links{
+    justify-self: right;
+}
+
+
+@media(max-width: 576px) {
+.nav-container{
+    display: flex;   
+}
+
+.navbar-container1{
+    flex-direction: column;
+    justify-content: left;
+    width: 50%;
+}
+
+.navbar-links{
+    width: fit-content;
+    justify-self: left;
+}
+
+.navbar-container2{
+    height: 160px;
+}
+
+.register-button{
+    justify-self: right;
+    margin-top: 0;
+}
+}
+
