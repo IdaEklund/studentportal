@@ -15,7 +15,7 @@ export const NavBar = () => {
       <Navbar expand="sm" bg="dark" data-bs-theme="dark">
         <Container className="nav-container">
           <div className="navbar-container1">
-            <Navbar.Brand className="nav-title" href="/">
+            <Navbar.Brand as={NavLink} to={"/"} className="nav-title">
               Student Portal
             </Navbar.Brand>
             <Nav className="navbar-links">

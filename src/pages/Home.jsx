@@ -25,7 +25,7 @@ return (
             Welcome!
         </Card.Title>
         </Card.Header>
-        <Card.Img variant="top" src="/university.jpg" alt="school" />
+        <Card.Img variant="top" src="/dist/university.jpg" alt="school" />
         <Card.Body style={{ height: "1em" }}>
         <Card.Text>
             You can find course information and registration details on the
