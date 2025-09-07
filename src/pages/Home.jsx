@@ -13,7 +13,7 @@ return (
       minHeight: "100vh",
     }}
   >
-    <Card style={{ width: "40em", height: "35em" }}>
+    <Card style={{ width: "40em", height: "fit-content" }}>
       <Card.Header>
         <Card.Title
           style={{
@@ -30,7 +30,7 @@ return (
         src="https://cdn.pixabay.com/photo/2012/03/04/00/55/academic-22143_1280.jpg"
         alt="school"
       />
-      <Card.Body style={{ height: "1em" }}>
+      <Card.Body >
         <Card.Text>
           You can find course information and registration details on the
           Student Portal.
